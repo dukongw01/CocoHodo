@@ -62,7 +62,7 @@ export default function Page({datalist02, tapfilter}){
                     <li key={item.id}>
                         <Link to={`/${item.id}`}>
                             <div className="hodoimgbox">
-                                <img src={`/img/${item.title}`} alt={item.name}/>
+                                <img src={`img/${item.title}`} alt={item.name}/>
                             </div>
                             <h3>{item.name}</h3>
                                 <div className="pribuy">

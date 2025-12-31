@@ -92,7 +92,7 @@ export default function Cart({datalist}){
                                <tr key={item.id}>
                                     <td  className="table-center-title">
                                         <input type="checkbox" />
-                                        <img src={`/img/${item.title}`} alt={item.name}/>
+                                        <img src={`img/${item.title}`} alt={item.name}/>
                                         <p>{item.name}</p>
                                     </td>
                                     <td className="table-rigt">
