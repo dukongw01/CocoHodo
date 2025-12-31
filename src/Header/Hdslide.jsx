@@ -8,10 +8,10 @@ export default function HdSilde(){
     
     // 배너 이미지 접근
     const slideItem = [
-        {id:1, src:'/img/hdslide1.jpg'},
-        {id:2, src:'/img/hdslide2.jpg'},
-        {id:3, src:'/img/hdslide3.jpg'},
-        {id:4, src:'/img/hdslide4.jpg'}
+        {id:1, src:'img/hdslide1.jpg'},
+        {id:2, src:'img/hdslide2.jpg'},
+        {id:3, src:'img/hdslide3.jpg'},
+        {id:4, src:'img/hdslide4.jpg'}
     ];
 
     // 슬라이드 인덱스
